@@ -1,0 +1,10 @@
+{
+	"include": ["./"],
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es6"
+    }
+}
