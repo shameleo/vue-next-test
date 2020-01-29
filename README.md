@@ -1,5 +1,11 @@
-# vue-next-webpack-preview
+# vti test
 
-Minimal webpack setup for Vue 3 (alpha). This is for preview purposes only. There might be bugs and undocumented behavior differences from v2, which are expected.
+Run `npm run vti`
+I'm getting error:
 
-Also note that if you are using VSCode, Vetur isn't updated to take advantage of Vue 3's typing yet so intellisense in Vue files may not be fully functional (especially in templates).
+```
+Argument of type '{ setup(): { test: Ref<number>; }; }' is not assignable to parameter of type 'new (...args: any[]) => any'.
+  Type '{ setup(): { test: Ref<number>; }; }' provides no match for the signature 'new (...args: any[]): any'
+```
+
+If remove `lang="ts"`, vti claims there are no errors. Obviously, it's not the case.

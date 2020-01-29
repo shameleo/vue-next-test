@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack --env.prod"
+    "build": "webpack --env.prod",
+    "vti": "vti diagnostics"
   },
   "dependencies": {
     "vue": "3.0.0-alpha.2"
@@ -15,6 +16,7 @@
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",
     "url-loader": "^3.0.0",
+    "vti": "0.0.2",
     "vue-loader": "16.0.0-alpha.2",
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10",
