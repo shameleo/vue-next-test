@@ -10,16 +10,16 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "3.0.0-alpha.2",
-    "css-loader": "^3.4.0",
-    "file-loader": "^5.0.2",
-    "mini-css-extract-plugin": "^0.9.0",
-    "ts-loader": "^6.2.1",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.7.5",
-    "url-loader": "^3.0.0",
+    "url-loader": "^4.1.1",
     "vti": "0.0.2",
-    "vue-loader": "16.0.0-alpha.2",
-    "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10",
+    "vue-loader": "16.8.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^3.10.1"
   }
 }
